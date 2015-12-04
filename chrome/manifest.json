@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+	"name": "RotoScript",
+    "version": "0.288.0.1",
+    "description": "Extensión para dejar de mostrar los hilos de las personas que tienes en la lista de ignorados en www.forocoches.com",
+    "permissions": ["tabs", "<all_urls>"],
+    "content_scripts": [{
+        "matches": ["http://www.forocoches.com/*"],
+		"js": ["RotoScript.js"]
+    }]
+}
