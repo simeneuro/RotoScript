@@ -14,7 +14,7 @@ if (document.location.href === "http://www.forocoches.com/foro/forumdisplay.php?
 } else if (document.location.href === "http://www.forocoches.com/") {
 	var i=0;
 	var f=0;
-	for (i = 0; i < 200; i++) {
+	for (i = 0; i < 2000; i++) {
 		x=document.getElementsByTagName("a")[i].childNodes[0];
 		for (f = 0; f < ignored.length; f++) {
 			if (x.nodeValue === ignored[f]) {
